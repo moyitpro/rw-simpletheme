@@ -10,39 +10,6 @@ body {
 	margin-left: auto;
 	margin-right: auto 
 }
-.contenthead {
-	border: 1px solid;
-	background-color: #e8fafd;
-	width: auto;
-	padding: 2px;
-}
-.contenthead li {
-display: block; 
-float: left;
-}
-.content {
-	border: 1px solid;
-	background-color: #e8fafd;
-	width: auto;
-	margin-top:10px;
-	margin-left: auto ;
-  	margin-right: auto ;
-  	padding: 2px 2px 2px;
-  	overflow: auto;
-}
-.footer{
-	border: 1px solid;
-	font-size: 12px;
-	background-color: #e8fafd;
-	width: auto;
-	height:  auto;
-	margin-top:10px;
-	margin-left: auto ;
-  	margin-right: auto ;
-  	overflow: auto;	
-  	padding: 2px;
-  	text-align: center;
-}
 .titletext{
 	font-size:  30px;
 	font-weight:  bold;
@@ -87,6 +54,10 @@ img {
 }
 
 #pageHeader {
+border: 1px solid;
+background-color: #e8fafd;
+width: auto;
+padding: 2px;
 }
 
 #pageHeader img {
@@ -99,6 +70,14 @@ img {
 }
 
 #contentContainer {
+	border: 1px solid;
+	background-color: #e8fafd;
+	width: auto;
+	margin-top:10px;
+	margin-left: auto ;
+	margin-right: auto ;
+	padding: 2px 2px 2px;
+	overflow: auto;
 }
 
 #contentContainer #content {
@@ -114,6 +93,17 @@ img {
 }
 
 #footer { 
+	border: 1px solid;
+	font-size: 12px;
+	background-color: #e8fafd;
+	width: auto;
+	height:  auto;
+	margin-top:10px;
+	margin-left: auto ;
+	margin-right: auto ;
+	overflow: auto;	
+	padding: 2px;
+	text-align: center;
 }
 
 #footer p {
@@ -149,14 +139,22 @@ img {
 /* @group Toolbar */
 
 /* Parent - Level 0 */
-
-#navcontainer ul{
+#navcontainer {
+border: 1px solid;
+background-color: #e8fafd;
+width: auto;
+margin-top: 4px;
+height: 26px;
 }
 
 #navcontainer li {
+display: block;
+float: left;
 }
-
 #navcontainer a {
+display: block;
+text-decoration: none;
+float: left;
 }
 
 #navcontainer a:hover {
@@ -430,18 +428,23 @@ ul.blog-tag-cloud li {
 
 .blog-entry-summary {
 }
-.blog-archive-headings-wrapper {
+
+.blog-archive-headings-wrapper {
 }
 
 .blog-archive-entries-wrapper {
 }
 
 .blog-archive-entries-wrapper .blog-entry {
-}.blog-archive-month {
+}
+
+.blog-archive-month {
 }
 
 .blog-archive-link {
-}.blog-archive-link a:link, .blog-archive-link a:visited {
+}
+
+.blog-archive-link a:link, .blog-archive-link a:visited {
 }
 	
 /* @end */
@@ -795,8 +798,12 @@ p.exif-user-comment {
 /* @group Index Page (Movie Thumbnail view) */
 
 .movie-page-title {
-}.movie-page-description {
-}.movie-thumbnail-frame {
+}
+
+.movie-page-description {
+}
+
+.movie-thumbnail-frame {
 }
 
 .movie-thumbnail-frame:hover {
