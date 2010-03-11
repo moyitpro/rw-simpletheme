@@ -1,7 +1,7 @@
 /* @group General Styles */
 
 body {
-	background-color: #cbf4fa;
+	background-color: %colour_body_background%;
 	font-family: "Segoe UI","Lucida Grande", Arial, serif;
 	font-size: 14px;
 }
@@ -15,11 +15,9 @@ body {
 	font-weight:  bold;
 }
 a:link {
-color: #338ec2;
 text-decoration: none; 
 }
 a:visited {
-color: #338ec2; 
 text-decoration: none; 
 }
 a:hover {
@@ -57,7 +55,6 @@ img {
 border-left: 1px solid;
 border-right: 1px solid;
 border-top: 1px solid;
-background-color: #e8fafd;
 width: auto;
 padding: 2px 10px;
 }
@@ -73,7 +70,6 @@ padding: 2px 10px;
 
 #contentContainer {
 	border: 1px solid;
-	background-color: #e8fafd;
 	width: auto;
 	margin-top:10px;
 	margin-left: auto ;
@@ -97,7 +93,7 @@ padding: 2px 10px;
 #footer { 
 	border: 1px solid;
 	font-size: 12px;
-	background-color: #e8fafd;
+	background-color: %colour_container_background%;
 	width: auto;
 	height:  auto;
 	margin-top:10px;
@@ -143,7 +139,6 @@ padding: 2px 10px;
 border-left: 1px solid;
 border-right: 1px solid;
 border-bottom: 1px solid;
-background-color: #e8fafd;
 width: auto;
 margin-top: 0px;
 height: 26px;

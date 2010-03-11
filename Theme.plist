@@ -24,55 +24,7 @@
 				<key>GroupDisplayName</key>
 				<dict>
 					<key>en</key>
-					<string>English Option Group Name</string>
-				</dict>
-				<key>GroupMembers</key>
-				<array>
-					<dict>
-						<key>DisplayName</key>
-						<dict>
-							<key>en</key>
-							<string>English Option Name</string>
-						</dict>
-						<key>Enabled</key>
-						<true/>
-						<key>Files</key>
-						<array>
-							<string>css/option_group/file_name.css</string>
-						</array>
-						<key>Name</key>
-						<string>Option Name</string>
-						<key>Type</key>
-						<string>Stylesheet</string>
-					</dict>
-					<dict>
-						<key>DisplayName</key>
-						<dict>
-							<key>en</key>
-							<string>English Option 2 Name</string>
-						</dict>
-						<key>Enabled</key>
-						<false/>
-						<key>Files</key>
-						<array>
-							<string>css/option_group/file_name.css</string>
-						</array>
-						<key>Name</key>
-						<string>Option 2 Name</string>
-						<key>Type</key>
-						<string>Stylesheet</string>
-					</dict>
-				</array>
-				<key>GroupName</key>
-				<string>Option Group</string>
-				<key>GroupSelectionLimit</key>
-				<integer>1</integer>
-			</dict>
-			<dict>
-				<key>GroupDisplayName</key>
-				<dict>
-					<key>en</key>
-					<string>English Colours</string>
+					<string>Colours</string>
 				</dict>
 				<key>GroupMembers</key>
 				<array>
@@ -91,6 +43,36 @@
 						<key>Type</key>
 						<string>Colour</string>
 					</dict>
+					<dict>
+						<key>DefaultColour</key>
+						<string>#e8fafd</string>
+						<key>DisplayName</key>
+						<dict>
+							<key>en</key>
+							<string>Container Background</string>
+						</dict>
+						<key>Name</key>
+						<string>Container Background</string>
+						<key>Tag</key>
+						<string>%colour_container_background%</string>
+						<key>Type</key>
+						<string>Colour</string>
+					</dict>
+					<dict>
+						<key>DefaultColour</key>
+						<string>#338ec2</string>
+						<key>DisplayName</key>
+						<dict>
+							<key>en</key>
+							<string>Link Colour</string>
+						</dict>
+						<key>Name</key>
+						<string>Link Colour</string>
+						<key>Tag</key>
+						<string>%colour_link%</string>
+						<key>Type</key>
+						<string>Colour</string>
+					</dict>
 				</array>
 				<key>GroupName</key>
 				<string>Colours</string>
@@ -106,17 +88,17 @@
 		<key>RWBreadCrumb</key>
 		<string>&lt;ul&gt;%items%&lt;/ul&gt;</string>
 		<key>RWBreadCrumbItem</key>
-		<string>&lt;li&gt;&lt;a href="%url%"&gt;%title%&lt;/a&gt;%separator%&lt;/li&gt;</string>
+		<string>&lt;li&gt;&lt;a href=&quot;%url%&quot;&gt;%title%&lt;/a&gt;%separator%&lt;/li&gt;</string>
 		<key>RWBreadCrumbSeparator</key>
 		<string>&amp;nbsp;&gt;&amp;nbsp;</string>
 		<key>RWSupportedLevels</key>
 		<integer>2</integer>
 		<key>RWToolbarItemCurrent</key>
-		<string>&lt;li&gt;&lt;a href="%url%" rel="%rel%" id="current"&gt;%title%&lt;/a&gt;%subitems%&lt;/li&gt;</string>
+		<string>&lt;li&gt;&lt;a href=&quot;%url%&quot; rel=&quot;%rel%&quot; id=&quot;current&quot;&gt;%title%&lt;/a&gt;%subitems%&lt;/li&gt;</string>
 		<key>RWToolbarItemCurrentAncestor</key>
-		<string>&lt;li&gt;&lt;a href="%url%" rel="%rel%" class="currentAncestor"&gt;%title%&lt;/a&gt;%subitems%&lt;/li&gt;</string>
+		<string>&lt;li&gt;&lt;a href=&quot;%url%&quot; rel=&quot;%rel%&quot; class=&quot;currentAncestor&quot;&gt;%title%&lt;/a&gt;%subitems%&lt;/li&gt;</string>
 		<key>RWToolbarItemNormal</key>
-		<string>&lt;li&gt;&lt;a href="%url%" rel="%rel%"&gt;%title%&lt;/a&gt;%subitems%&lt;/li&gt;</string>
+		<string>&lt;li&gt;&lt;a href=&quot;%url%&quot; rel=&quot;%rel%&quot;&gt;%title%&lt;/a&gt;%subitems%&lt;/li&gt;</string>
 		<key>RWToolbarList</key>
 		<string>&lt;ul&gt;%items%&lt;/ul&gt;</string>
 	</dict>

@@ -1,3 +1,21 @@
 body {
 	background-color: %colour_body_background%;
 }
+#navcontainer {
+background-color: %colour_container_background%;
+}
+#contentContainer {
+	background-color: %colour_container_background%;
+}
+#footer { 
+	background-color: %colour_container_background%;
+}
+#pageHeader {
+background-color: %colour_container_background%;
+}
+a:link {
+color: %colour_link%;
+}
+a:visited {
+color: %colour_link%; 
+}
