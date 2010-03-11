@@ -1,0 +1,6 @@
+Simple Theme for RapidWeaver 4
+http://www.realmacsoftware.com/rapidweaver/
+
+What is this? This is a simple and clean theme seen on Kronblr, now ported to RapidWeaver. This features mostly CSS and Valid XHTML 1.0 Strict.
+
+To install, create a folder called simpletheme.rwtheme, Right Click and "View Contents." Create a "Contents" folder and drag all the files from the source to this folder and then double click on simpletheme.rwtheme.
