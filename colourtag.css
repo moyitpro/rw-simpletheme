@@ -19,3 +19,6 @@ color: %colour_link%;
 a:visited {
 color: %colour_link%; 
 }
+#sidebarContainer #sidebar {
+background-color: %colour_container_background%;
+}
